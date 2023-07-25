@@ -69,8 +69,8 @@ class Device {
       final diagonalSizeInches = (Math.sqrt(
               Math.pow(adjustedWidth, 2) + Math.pow(adjustedHeight, 2))) /
           _ppi;
-      print("_calWidth is: $_calWidth()");
-      print("_calHeight is: $_calHeight()");
+      print("_calWidth is: ${_calWidth()}");
+      print("_calHeight is: ${_calHeight()}");
       print("adjusted width is: $adjustedWidth");
       print("adjusted height is: $adjustedHeight");
       print("devicePixelRatio is:  $devicePixelRatio");
