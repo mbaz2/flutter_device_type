@@ -69,7 +69,7 @@ class Device {
       final diagonalSizeInches = (Math.sqrt(
               Math.pow(adjustedWidth, 2) + Math.pow(adjustedHeight, 2))) /
           _ppi;
-      //print("Dialog size inches is $diagonalSizeInches");
+      print("Dialog size inches is $diagonalSizeInches");
       if (diagonalSizeInches >= 7) {
         isTablet = true;
         isPhone = false;
