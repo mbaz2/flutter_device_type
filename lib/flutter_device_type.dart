@@ -1,8 +1,8 @@
 library flutter_device_type;
 
 import 'dart:io';
-import 'dart:ui' as ui;
 import 'dart:math' as Math;
+import 'dart:ui' as ui;
 
 class Device {
   static double devicePixelRatio = ui.window.devicePixelRatio;
@@ -32,6 +32,7 @@ class Device {
       ui.window.onMetricsChanged = () {
         _device = null;
 
+        devicePixelRatio = ui.window.devicePixelRatio;
         size = ui.window.physicalSize;
         width = size.width;
         height = size.height;
