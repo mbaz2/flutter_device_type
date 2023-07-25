@@ -69,13 +69,13 @@ class Device {
       final diagonalSizeInches = (Math.sqrt(
               Math.pow(adjustedWidth, 2) + Math.pow(adjustedHeight, 2))) /
           _ppi;
-      print("_calWidth is: ${_calWidth()}");
+/*      print("_calWidth is: ${_calWidth()}");
       print("_calHeight is: ${_calHeight()}");
       print("adjusted width is: $adjustedWidth");
       print("adjusted height is: $adjustedHeight");
       print("devicePixelRatio is:  $devicePixelRatio");
-      print("Dialog size inches is $diagonalSizeInches");
-      if (diagonalSizeInches >= 7) {
+      print("Dialog size inches is $diagonalSizeInches");*/
+      if (diagonalSizeInches >= 6.2) {
         isTablet = true;
         isPhone = false;
       } else {
