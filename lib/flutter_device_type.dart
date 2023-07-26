@@ -75,8 +75,7 @@ class Device {
       print("adjusted height is: $adjustedHeight");
       print("devicePixelRatio is:  $devicePixelRatio");
       print("Dialog size inches is $diagonalSizeInches");*/
-      print("Dialog size inches is $diagonalSizeInches");
-      if (diagonalSizeInches >= 6.2) {
+      if (diagonalSizeInches >= 6.1) {
         isTablet = true;
         isPhone = false;
       } else {
